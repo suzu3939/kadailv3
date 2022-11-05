@@ -1,0 +1,236 @@
+.header {
+  /* header */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 158px;
+
+  position: absolute;
+  width: 1440px;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  /* logo 2 */
+  width: 143px;
+  height: 51px;
+  background: url("../images/logo.png");
+  /* オートレイアウト内部 */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.menu {
+  /* menu */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+  width: 1008px;
+  height: 84px;
+  /* オートレイアウト内部 */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.nav {
+  /* Nav */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 645px;
+  height: 29px;
+  /* オートレイアウト内部 */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.btn {
+  /* Button */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+  gap: 10px;
+  width: 313px;
+  height: 84px;
+  background: #007979;
+}
+/* メニューのアイテム */
+/******************************/
+.nav_item_1 {
+  /* Text */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 71px;
+  height: 29px;
+}
+.nav_item_2 {
+  /* Text */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 105px;
+  height: 29px;
+}
+.nav_item_3 {
+  /* Text */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 99px;
+  height: 29px;
+}
+.nav_item_4 {
+  /* Text */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 46px;
+  height: 29px;
+}
+.nav_item_5 {
+  /* Text */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 88px;
+  height: 29px;
+}
+.nav_item_6 {
+  /* Text */
+  /* オートレイアウト */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 86px;
+  height: 29px;
+}
+/* メニューのテキスト */
+/******************************/
+.nav_text_1 {
+  /* Text */
+  width: 60px;
+  height: 29px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* ボックスの高さと同一 */
+  color: #000000;
+}
+.nav_text_2 {
+  /* Text */
+  width: 100px;
+  height: 29px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* ボックスの高さと同一 */
+  color: #000000;
+}
+.nav_text_3 {
+  /* Text */
+  width: 100px;
+  height: 29px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* ボックスの高さと同一 */
+  color: #000000;
+}
+.nav_text_4 {
+  /* Text */
+  width: 40px;
+  height: 29px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* ボックスの高さと同一 */
+  color: #000000;
+}
+.nav_text_5 {
+  /* Text */
+  width: 80px;
+  height: 29px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* ボックスの高さと同一 */
+  color: #000000;
+}
+.nav_text_6 {
+  /* Text */
+  width: 80px;
+  height: 29px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* ボックスの高さと同一 */
+  color: #000000;
+}
+.btn_img {
+  /* Polygon 2 1 */
+  width: 23px;
+  height: 23px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.btn_text {
+  /* 無料説明会へ申し込み */
+  width: 220px;
+  height: 24px;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* ボックスの高さと同一 */
+  color: #ffffff;
+}
