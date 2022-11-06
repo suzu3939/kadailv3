@@ -1,28 +1,50 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link href="./css/main.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="header">
-      <div class="logo"></div>
-      <div class="menu">
-        <div class="nav">
-          <div class="nav_item_1 nav_text_1">HOME</div>
-          <div class="nav_item_2 nav_text_2">起業家育成</div>
-          <div class="nav_item_3 nav_text_3">コンセプト</div>
-          <div class="nav_item_4 nav_text_4">採用</div>
-          <div class="nav_item_5 nav_text_5">ニュース</div>
-          <div class="nav_item_6 nav_text_6">運営会社</div>
+    <header>
+      <nav class="nav_px flex justify-between align-center">
+        <div>
+          <a href="#">
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              width="143px"
+              height="51px"
+            />
+          </a>
         </div>
-        <div class="btn btn_text">
-          <figure class="btn_img">
-            <img src="./images/Polygon.png" />
-          </figure>
-          無料説明会へ申し込み
+        <div class="gap-x-50 flex align-center">
+          <ul class="pc-only px-50 flex list-style-none">
+            <li class="px-20 gap-x-10 border_right decoration-none">HOME</li>
+            <li class="px-20 gap-x-10 border_right decoration-none">
+              起業家育成
+            </li>
+            <li class="px-20 gap-x-10 border_right decoration-none">
+              コンセプト
+            </li>
+            <li class="px-20 gap-x-10 border_right decoration-none">採用</li>
+            <li class="px-20 gap-x-10 border_right decoration-none">
+              ニュース
+            </li>
+            <li class="px-20 gap-x-10 decoration-none">運営会社</li>
+          </ul>
+          <div>
+            <a
+              href="/"
+              class="font-sp btn-px gap-x-10 decoration-none flex text-white bg-primary btn-hover"
+            >
+              <img src="./images/Polygon.png" />無料説明会へ申し込み
+            </a>
+          </div>
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   </body>
 </html>
