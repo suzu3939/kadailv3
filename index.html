@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body class="xl_max-w-1280 xl_m-auto">
-    <!-- Header -->
+    <!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊共通ヘッダー -->
     <header>
       <nav class="flex header-px justify-between align-center">
         <div>
@@ -47,7 +47,7 @@
         </div>
       </nav>
     </header>
-    <!-- lg_Hero01 -->
+    <!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊ＰＣ版　Hero1 -->
     <ul class="hidden lg_flex mx-px-00">
       <!-- 左側 -->
       <li>
@@ -109,11 +109,11 @@
         />
       </li>
     </ul>
-    <!-- md_Hero01 -->
-    <ul class="lg_hidden mx-px-00">
+    <!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊モバイル版　Hero1 -->
+    <div class="lg_hidden mx-px-00">
       <!-- 上側 -->
-      <li>
-        <div class="bg01_parents mx-140">
+      <div>
+        <div class="bg01_parents">
           <!-- ０層目 -->
           <img
             src="./images/hero01_bg01.jpg"
@@ -152,13 +152,13 @@
           </div>
           <!-- ４層目 -->
         </div>
-      </li>
-      <li>
-        <div class="child_abs04">
+      </div>
+      <div>
+        <div class="py-20">
           <div class="txt-color-primay font-11px">
             \ 現在１期で２８人が起業に挑戦中 /
           </div>
-          <div>
+          <div class="btn-md-hero01">
             <a
               href="/"
               class="font-11px btn-px-linear2 gap-x-10 decoration-none flex text-white bg-linear btn-hover m-central"
@@ -167,15 +167,63 @@
             </a>
           </div>
         </div>
-      </li>
+      </div>
       <!-- 下側 -->
-      <li>
+      <div>
         <img
           src="./images/hero01_bg02.jpg"
           alt="hero01_bg02"
           width="873.27px"
         />
-      </li>
-    </ul>
+      </div>
+    </div>
+    <!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊モバイル版　synpmathy -->
+    <section class="lg_hidden">
+      <div class="bg01_parents bg-synpmathy txt-color-primay text-left">
+        <p class="synpmathy-font synpmathy-1st-msg">
+          <span>起業</span>は選ばれし一握りの人の挑戦だと思っていませんか。
+        </p>
+        <p class="synpmathy-2nd-msg">アントレプレナーシップ</p>
+        <p class="synpmathy-3nd-msg">
+          いま日本では起業家精神を持った人材の育成に国を挙げて取り組んでいます。
+          市場の課題を調査して、解決するプロダクトを開発してビジネスとして普及させることができる人材になることが独立の有無は問わず求められる時代が来ます。
+        </p>
+        <p class="synpmathy-4nd-msg">これからの時代に求められる人材とは？</p>
+        <div class="synpmathy-4nd-img m-central">
+          <img
+            src="./images/synpmathy_line.png"
+            width="300px"
+            alt="synpmathy_line"
+          />
+        </div>
+        <div class="synpmathy_child_image">
+          <img src="./images/synpmathy_frame.png" alt="synpmathy_frame" />
+        </div>
+      </div>
+    </section>
+    <!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊ＰＣ版　synpmathy -->
+    <section class="hidden lg_flex">
+      <div class="bg01_parents bg-synpmathy-lg txt-color-primay text-left">
+        <p class="synpmathy-font-lg synpmathy-1st-msg-lg">
+          <span>起業</span>は選ばれし一握りの人の挑戦だと思っていませんか。
+        </p>
+        <p class="synpmathy-2nd-msg">アントレプレナーシップ</p>
+        <p class="synpmathy-3nd-msg-lg">
+          いま日本では起業家精神を持った人材の育成に国を挙げて取り組んでいます。<br />
+          市場の課題を調査して、解決するプロダクトを開発して<br />ビジネスとして普及させることができる人材になることが<br />独立の有無は問わず求められる時代が来ます。
+        </p>
+        <p class="synpmathy-4nd-msg-lg">これからの時代に求められる人材とは？</p>
+        <div class="synpmathy-4nd-img-lg m-central">
+          <img
+            src="./images/synpmathy_line.png"
+            width="300px"
+            alt="synpmathy_line"
+          />
+        </div>
+        <div class="synpmathy_child_image-lg">
+          <img src="./images/synpmathy_frame.png" alt="synpmathy_frame" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
